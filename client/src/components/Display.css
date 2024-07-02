@@ -1,0 +1,78 @@
+/* Display.css */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px; /* Adjust max-width as needed */
+  background-color: rgba(191, 215, 230, 0.9); /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Apply a 5px blur effect to the background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  background-color: #004080; /* Darker shade of blue */
+  border: none;
+  border-radius: 4px; /* Slightly reduced border radius */
+  color: #ffffff;
+  padding: 8px 16px; /* Reduced padding */
+  font-size: 14px; /* Slightly reduced font size */
+  margin: 10px auto;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #002b59; /* Darker shade of hover blue */
+}
+
+.address, .file-input {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.file-button {
+  background-color: #00bfff; /* Light blue */
+  border: none;
+  border-radius: 4px; /* Slightly reduced border radius */
+  color: #ffffff;
+  padding: 6px 12px; /* Slightly reduced padding */
+  font-size: 12px; /* Slightly reduced font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.file-button:hover {
+  background-color: #0080ff; /* Darker shade of hover blue */
+}
+
+.newtest{
+  display: none;
+}
+
+.popup {
+  /* Your popup styles here */
+}
+
+.popup-content {
+  /* Your popup content styles here */
+}
+
+.close {
+  /* Your close button styles here */
+}
+
+.card thead th {
+  text-align: center; /* Center align the table header cells */
+}
