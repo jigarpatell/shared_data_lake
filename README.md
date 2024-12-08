@@ -1,5 +1,7 @@
 # shared_data_lake
 
+install metamask in your browser
+
 new terminal: npx hardhat node
 
 new terminal(if you modify smart contract): npx hardhat compile  ,  npx hardhat run --network localhost scripts/deploy.js
